@@ -55,7 +55,6 @@ table.insert(target_effects, {
 local atomic_artillery_shell = util.table.deepcopy(base_artillery_shell)
 atomic_artillery_shell.name = "artillery-shell-atomic"
 atomic_artillery_shell.icon = "__simple-atomic-shell__/graphics/icons/artillery-shell-atomic.png"
-atomic_artillery_shell.pictures = util.table.deepcopy(atomic_bomb_item.pictures)
 atomic_artillery_shell.ammo_type.action.action_delivery.projectile = "artillery-projectile-atomic"
 atomic_artillery_shell.subgroup = "ammo"
 atomic_artillery_shell.order = "d[explosive-cannon-shell]-e[artillery-shell-atomic]"
