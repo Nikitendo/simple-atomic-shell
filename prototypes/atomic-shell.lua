@@ -109,6 +109,11 @@ local atomic_artillery_shell_technology =
   }
 }
 
+if mods["space-age"] then
+  table.insert(atomic_artillery_shell_technology.unit.ingredients, { "metallurgic-science-pack", 1 })
+  table.insert(atomic_artillery_shell_technology.prerequisites, "metallurgic-science-pack")
+end
+
 data:extend
 {
   atomic_artillery_projectile,

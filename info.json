@@ -4,7 +4,7 @@
   "title": "Simple Atomic Artillery Shell",
   "author": "Nikitendo",
   "factorio_version": "2.0",
-  "description": "Adds a atomic artillery shell so artillery can fire atomic payloads.",
+  "description": "Adds an atomic artillery shell so artillery can fire atomic payloads.",
   "dependencies": [
     "base >= 2.0.0"
   ]
